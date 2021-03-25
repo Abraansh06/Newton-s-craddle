@@ -16,7 +16,7 @@ class Bob{
     display(){
         var paperpos=this.body.position;
         push();
-        fill("white");
+        fill("yellow");
         translate(paperpos.x,paperpos.y);
         ellipseMode(RADIUS);
         ellipse(0,0,this.r,this.r);
